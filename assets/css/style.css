@@ -1,0 +1,78 @@
+/* All the fonts MUST BE INSIDE the css folder, not in an aditional folder, not on a extra folder in the assets folder. Otherwise it won't work.*/
+
+@font-face {
+    font-family: 'Stayline';
+    src: url('Stayline.woff2') format('woff2'),
+        url('Stayline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HappyBirthday';
+    src: url('happyBirthday.woff2') format('woff2'),
+        url('happyBirthday.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.bday{
+    font-family: 'HappyBirthday', Georgia, Times, 'cursive';
+}
+
+.stay{
+    font-family: 'Stayline', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.food{
+    font-family: 'Foodlist', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.noregrets {
+    font-family: 'No_Regrets_Sketch', 'Times New Roman', Times,  Georgia, serif;
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+.nav-link{
+    font-size: xx-large;
+}
+
+.main{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: white;
+}
+.paragraph{
+    font-size: 6.5vw ;
+
+}
+.table{
+    font-size: 4.5vw;
+}
+
+.highlight{
+    font-weight: bold;
+    font-size: 8vw;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
