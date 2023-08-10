@@ -18,7 +18,6 @@
     font-display: swap;
 }
 
-
 .bday{
     font-family: 'HappyBirthday', Georgia, Times, 'cursive';
 }
@@ -26,15 +25,6 @@
 .stay{
     font-family: 'Stayline', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
-.food{
-    font-family: 'Foodlist', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-}
-
-.noregrets {
-    font-family: 'No_Regrets_Sketch', 'Times New Roman', Times,  Georgia, serif;
-    font-weight: normal;
-    font-style: normal;
-    }
 
 .navbar-brand {
     font-size: xx-large;
@@ -75,4 +65,12 @@
     height:100%;
     width:100%;
     position:absolute;
+}
+
+footer{
+    border: 3px solid #f20d00
+}
+
+.cright{
+    font-size: 4vw;
 }
