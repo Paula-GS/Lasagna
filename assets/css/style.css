@@ -27,11 +27,11 @@
 }
 
 .navbar-brand {
-    font-size: xx-large;
+    font-size: 3.5vw;
 }
 
 .nav-link{
-    font-size: xx-large;
+    font-size: 3.5vw;
 }
 
 .main{
@@ -39,9 +39,15 @@
     margin-right: 3rem;
     background-color: white;
 }
+.justify{
+    text-align: justify;
+}  
 .paragraph{
     font-size: 6.5vw ;
+}
 
+.paragraph2{
+    font-size: 4vw;
 }
 .table{
     font-size: 4.5vw;
