@@ -58,6 +58,23 @@
     font-size: 8vw;
 }
 
+.imagen{
+    margin-left: 3vw;
+    margin-right: 3vw;   
+}
+
+.card-text{
+    font-size: 3vw;
+}
+
+.insta{
+    border-style: double;
+    border-color: #f20d00;
+    border-width: 0.5vw;
+    border-radius: 10px;
+    padding: 1vw;
+}
+
 .separador{
     width: 50vw;
     display: block;
